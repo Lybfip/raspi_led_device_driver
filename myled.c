@@ -1,5 +1,10 @@
 #include <linux/module.h>
 
+MODULE_AUTHOR("Lybfip Ruxeacrh");
+MODULE_DESCRIPTION("driver for LED control");
+MODULE_LICENSE("GPL");
+MODULE_VERSION("0.1");
+
 static int __init init_mod(void)
 {
     printk(KERN_INFO "%s is loaded.\n",__FILE__);
